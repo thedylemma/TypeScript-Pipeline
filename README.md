@@ -30,5 +30,5 @@ pipeline
     console.log("Axios configuration: " + data);
     return next(data);
   })
-  .execute(new AxiosRequestConfig());
+  .execute({} as AxiosRequestConfig);
 ```
